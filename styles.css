@@ -93,15 +93,11 @@ header {
   text-decoration: none;
   padding: 1em;
   display: flex;
-  align-items: center;
   margin: 15px;
   transition: background-color 0.2s ease-in;
   border: 2px solid transparent;
 }
 
-.navbar a:active {
-  color: rgb(2, 138, 11);
-}
 .navbar a:hover {
   color: rgb(137, 247, 181);
 }
