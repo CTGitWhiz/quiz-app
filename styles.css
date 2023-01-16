@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  position: relative;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    135deg,
+    rgb(255, 0, 0),
+    rgb(255, 255, 0),
+    rgb(0, 0, 255)
+  );
+  z-index: 1;
+}
+
+.app-title {
+  margin: 2vh;
+}
+
+.question-container {
+  position: relative;
+  top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.question-card {
+  position: relative;
+  flex: 1 0 300px;
+  padding: 1em;
+  margin: 1em;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.material-symbols-outlined {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 5px;
+  transform: scale(2);
+}
+
+.question-tags {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.views-tag,
+.date-tag,
+.difficulty-tag {
+  font-size: 10px;
+  color: #555;
+  padding: 3px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in; /* add a mouseover effect */
+}
+
+.views-tag:hover,
+.date-tag:hover,
+.difficulty-tag:hover {
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  transition: background-color 0.2s ease-in;
+  border: 2px solid transparent;
+}
+
+.navbar a:hover,
+.navbar a:active {
+  color: rgb(1, 231, 17);
+  cursor: pointer;
+}
