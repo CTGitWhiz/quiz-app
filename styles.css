@@ -26,7 +26,6 @@ header {
   margin: 2vh;
 }
 
-
 .question-container {
   position: relative;
   top: 80px;
@@ -100,9 +99,12 @@ header {
   border: 2px solid transparent;
 }
 
-.navbar a:hover,
 .navbar a:active {
-  color: rgb(1, 231, 17);
-  cursor: pointer;
+  color: rgb(2, 138, 11);
 }
-
+.navbar a:hover {
+  color: rgb(137, 247, 181);
+}
+.navbar a.active {
+  color: rgb(228, 0, 0);
+}
