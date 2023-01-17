@@ -164,7 +164,6 @@ header {
   line-height: 1.5;
   width: 60%;
   padding: 30px;
-
   position: relative;
   flex: 1 0 300px;
   padding: 1em;
@@ -174,5 +173,4 @@ header {
 
 .about-me {
   font-weight: bold;
-  bord
 }
