@@ -42,17 +42,6 @@ header {
   background-color: #f5f5f5;
 }
 
-/* for the bookmark page - margin top = space to the header...?! is this any good? */
-.question-card-bookmark {
-  position: relative;
-  flex: 1 0 300px;
-  padding: 1em;
-  margin: 1em;
-  margin-top: 90px;
-  margin-bottom: 90px;
-  background-color: #f5f5f5;
-}
-
 .answer-btn {
   margin-bottom: 40px;
 }
